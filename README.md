@@ -1,6 +1,5 @@
 # fakenewsbot
 
-Just making sure my environment is setup correctly!
 
 ### Creating a fake news bot at DevNet Create
 This repository is for the purpose of the "Leveraging Cisco Umbrella Security APIs to Build Your Own Fake News Bot" at the first [DevNet Create](https://devnetcreate.io/2017/) developer conference in SF.
@@ -13,5 +12,8 @@ This repository is for the purpose of the "Leveraging Cisco Umbrella Security AP
 
 I thought it would be a great idea to bring some of this awesome technology together in a way people could easily assume. The first DevNet Create event also seemed like an ideal venue!
 
-Thanks!
-- list people here  
+###Relevant parts of this workshop:
+* [Architecture and Platform](architecture.md) 
+* [Algorithm](algorithm.md)
+* [Lab](lab.md)
+  
