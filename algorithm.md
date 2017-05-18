@@ -13,7 +13,7 @@ domain.com
 Is the domain associated with a known security category (malware, phishing, botnet)? <br>
 if yes, **score=score+50**
 <br> ▼ <br>
-Does the domain share a name server with known fake news sites?
+Does the domain share a name server (or registration e-mail) with known fake news sites?
 <br>if yes, **score=score+50**
 <br> ▼ <br>
 How many domains are tied to the owner's e-mail address?
