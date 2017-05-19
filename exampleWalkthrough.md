@@ -2,7 +2,8 @@
 
 Now, lets examine a detailed walkthrough of an example domain to see how this may work. In this exercise, we provided some arbitrary values for different elements that help one determine if a domain is serving fake news. It is really up to you to completely add upon this using your ingenuity and creativity!
 
-As reading this, be thinking how you could make use of this information to customize and improve the accuracy of your bot.
+As reading this, be thinking how you could make use of this information to customize and improve the accuracy of your bot. Complete documentation can be found at [http://docs.umbrella.com](http://docs.umbrella.com).
+
 
 As an example, let's use the domain http://cnn.com.de/
 
@@ -37,6 +38,31 @@ There is some interesting information we can gleam from here including:<p>
 
  For example, here are some other e-mails that are associated with this same e-mail address. Notice some other domains related to known legitimate news sites. <p>
  <img src="images/associated_domains.png">
+
+### Associated Samples
+
+The associated samples displays SHA256 signatures of malicious content that has been found to be associated with the domain/IP in question. Furthermore, this includes integration with Cisco AMP Threat Grid so you can drill into ThreatGrid in a single click.
+<img src="images/associated_samples.png">
+
+### Domain Tagging
+
+This section displays a history of the domain's security status over the course of time. This can be useful to see if a site was previously flagged as malicious and later removed from the block list.
+<img src="images/domain_tagging.png">
+
+### Features
+The features section displays some other important information regarding the domain. This includes things like:
+
+ * TTL (time to live) for the domain
+ * country codes
+ * Associated ASNs
+ * whether a mail exchanger exist for the domain. Would a legitimate news site have mail for its domain?
+
+<img src="images/features.png">
+Hover over each category to read more information about it. How might you incorporate this info into your bot?
+
+### DGA Detection
+DGA stands for domain generation algorithm and this score includes how likely a domain might have been automatically generated. The screen shot below is for the domain dqtfhkgskushlum[.]org
+<img src="images/dga.png">
 
 
 

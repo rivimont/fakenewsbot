@@ -14,6 +14,7 @@ I thought it would be a great idea to bring some of this awesome technology toge
 
 ###Relevant parts of this workshop:
 * [Architecture and Platform](architecture.md) 
+* [Example walkthrough](exampleWalkthrough.md)
 * [Algorithm](algorithm.md)
 * [Lab](lab.md)
   
