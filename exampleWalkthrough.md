@@ -60,9 +60,21 @@ The features section displays some other important information regarding the dom
 <img src="images/features.png">
 Hover over each category to read more information about it. How might you incorporate this info into your bot?
 
+### Security Features
+This section contains more security related information about the domain. This includes some items like SecureRank based on how suspicious the domain may be and its PageRank (according to Google).
+The requester geo distribution shows where the users are visiting the domain from? Would you suspect a US news site to have the majority of its visitors from Russia?
+<img src="images/security_features.png">
+
 ### DGA Detection
 DGA stands for domain generation algorithm and this score includes how likely a domain might have been automatically generated. The screen shot below is for the domain dqtfhkgskushlum[.]org
 <img src="images/dga.png">
+
+### IP Addresses and Name Servers
+These sections are self-explanatory.
+
+### Co-occerances
+This section shows other domains that were called at around the same time (+- a few seconds) from the domain you are investigating. Often times, a site will be targeted for exploit and only serve up malware to an unsuspecting user who is on a platform that the malware can exploit. This can be useful in determining why a domain was called in the first place. <p>
+<img src="images/co-occurences.png">
 
 
 
