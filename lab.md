@@ -14,9 +14,9 @@ First make sure you have everything necessary to continue:
 --
 
  
-### Register Spark Bot
+## Register Spark Bot
 
-First head over to the [Spark Developer](http://www.developer.ciscospark.com) page and sign in. Sign-up if you don't already have access!
+First head over to [http://www.developer.ciscospark.com](http://www.developer.ciscospark.com) and sign in. Sign-up if you don't already have access!
 
 Click **My Apps** in the top right.
 
@@ -30,6 +30,40 @@ Add an icon but be sure it is at least 512x512 pixels large. Google Image search
 Click **Add Bot**
 
 You will then see an Access Token. This is very important as you can only copy this once. **COPY YOUR ACCESS TOKEN**  If you don't do this, you may have to regenerate it later. Put this somewhere you can copy it again later.
+
+## Sign up for CiscoPipeline
+
+ * Head on over to [http://www.ciscopipeline.io](http://www.ciscopipeline.io)<p>
+ * Click Sign in to begin <img src="images/githubSignin.png">
+ * Login with your GitHub credentials
+
+
+## Create your fake news bot!
+ * Login at [http://www.ciscopipeline.io](http://www.ciscopipeline.io)
+ * Click **New SparkBot** at the top right
+  * Provide a **unique bot name**
+  * Paste in your token from CiscoSpark
+  * Provide a description for your bot
+  
+Your bot can consist of static text actions or be based on Python. We will be using Python for this exercise.
+
+ * Click the **Code** tab
+ * You will see a **Code Library** to the right. 
+ * Click **Append to Code** next to the Cisco Umbrella; Fake News Detector
+ <img src="images/appendToCode.png">
+ * This will add the majority of the base code for our fake news bot:
+ <img src="images/fakeNewsCode.png">
+ * Take careful note of the token in the top of the code. You will need to replace this with an Umbrella Investigate API token provided to you.
+ * Then click submit at the bottom right. <img src="images/submit.png">
+ * You will be taken back to a list of your Pipeline bots. Refresh the page and you should see your new bot <img src="images/running.png">
+
+ ## Test your bot
+ 
+
+
+ 
+ 
+
 
 
  
