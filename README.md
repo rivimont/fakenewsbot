@@ -2,7 +2,7 @@
 
 
 ### Creating a fake news bot at DevNet Create
-This repository is for the purpose of the "Leveraging Cisco Umbrella Security APIs to Build Your Own Fake News Bot" at the first [DevNet Create](https://devnetcreate.io/2017/) developer conference in SF.
+This repository is for the purpose of the "Leveraging Cisco Umbrella Security APIs to Build Your Own Fake News Bot" workshop at the first [DevNet Create](https://devnetcreate.io/2017/) developer conference in SF.
 
 ### This workshop was inspired by a few things
 * Cisco Umbrella Hackathon 2017 - This was an internal event where a team created a Chrome Extension that would scan the current site you were on and generate a score listing the chance it through the site you were on was fake news. It made use of Natural Language Process (NLP) algorithms and was enriched with security intelligence from the Umbrella Investigate DB. 
