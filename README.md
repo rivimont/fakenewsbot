@@ -12,7 +12,7 @@ This repository is for the purpose of the "Leveraging Cisco Umbrella Security AP
 
 I thought it would be a great idea to bring some of this awesome technology together in a way people could easily assume. The first DevNet Create event also seemed like an ideal venue!
 
-###Relevant parts of this workshop:
+### Relevant parts of this workshop:
 * [Architecture and Platform](architecture.md) 
 * [Example walkthrough](exampleWalkthrough.md)
 * [Algorithm](algorithm.md)
