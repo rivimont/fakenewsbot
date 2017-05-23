@@ -1,3 +1,14 @@
+
+def check_domain(domain):
+    import re
+    pref = re.compile(r'http[s]*://')
+    d = re.sub(r'http[s]*://', '', domain)
+    print d
+    regexp = re.compile(r'[a-zA-Z\d-]{,63}(\.[a-zA-Z\d-]{,63})*')
+    if regexp.match(d):
+        return d
+    return ""
+
 # spark_handler is the starting point of our application.  Pipeline calls this function and executes
 # whenever your bot is called.  
 def spark_handler(post_data, message):
@@ -8,11 +19,14 @@ def spark_handler(post_data, message):
     token = 'YOUR UMBRELLA SECURITY TOKEN'
 
     # Get the last value and see if its fake news. 
-
-    # Get the last value and see if its fake news. 
     d = message.text.split(" ")[-1] 
-    spark.messages.create(roomId=room_id, text="Checking on domain: " + d + "...")
-    spark.messages.create(roomId=room_id, text=check_fake_news(token, message.text.split(" ")[-1]))
+    d = check_domain(d)
+    if d != "":
+        spark.messages.create(roomId=room_id, text="Checking on domain: " + d + "...")
+        spark.messages.create(roomId=room_id, text=check_fake_news(token, message.text.split(" ")[-1]))
+    else: 
+        spark.messages.create(roomId=room_id, text="Please give me a domain to see if its fake news!")
+        
 
 # get our database of fake news sites.
 def fakenews_get():
@@ -187,6 +201,8 @@ if token == None:
     print "please define UMBRELLA_TOKEN environment variable"
     sys.exit(1)
 if len(sys.argv) > 1:
-    print check_fake_news(token, sys.argv[1])
+    domain = check_domain(sys.argv[1])
+    if domain != "":
+        print check_fake_news(token, domain)
 else:
     print "Please call this program with a domain"
