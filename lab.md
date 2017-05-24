@@ -10,8 +10,9 @@ First make sure you have everything necessary to continue:
  * Laptop
  * A [GitHub](http://www.github.com) account
  * A [Spark developer](https://developer.ciscospark.com) account
+ * API documentation: [https://docs.umbrella.com/developer/investigate-api/](https://docs.umbrella.com/developer/investigate-api/)
 
-The lab is then broken intothree sections
+The lab is then broken into three sections
 
 * [Register Spark Bot](https://github.com/rivimont/fakenewsbot/blob/master/lab.md#register-spark-bot)
 * [Sign up for Cisco Pipeline](https://github.com/rivimont/fakenewsbot/blob/master/lab.md#sign-up-for-ciscopipeline)
